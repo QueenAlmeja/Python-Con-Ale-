@@ -11,10 +11,10 @@ if age_user % 2 == 0 and age_user >= 18:
     print(f"Hey {user_name}, tu edad es un numero par! Puedes ingresar a la ZONA VIP y disfrutar de la 🍔🍻")
 elif age_user % 2 != 0 and age_user >= 18:
     print(f"Vaya {user_name}, tu edad es un numero impar! Hoy no podras ingresar a la ZONA VIP 🥴")
-elif age_user % 2 == 0 and age_user <= 18:
+elif age_user % 2 == 0 and age_user < 18:
     print(f"Bueno {user_name}, tu edad es un numero par!, pero eres menor. Asi que no podras ingresar a RaptorHouse 🦎🎵")
     print("Esperate a ser mayor para venir a vacilar aqui")
-elif age_user % 2 != 0 and age_user <= 18:
+elif age_user % 2 != 0 and age_user < 18:
     print(f"Vaya vaya {user_name}, No eres mayor y tu edad no es par 🤡")
     print("Tendras que esperar a ser mayor para rumbear en la RaptorHouse")
 else:
